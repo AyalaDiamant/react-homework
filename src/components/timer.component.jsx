@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-// import ReactDOM from "react-dom/client";
+
 
 export const Timer = () => {
   const [count, setCount] = useState(0);
@@ -13,5 +13,3 @@ export const Timer = () => {
   return <h2>You opened the site {count} seconds ago!</h2>;
 }
 
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(<Timer />);

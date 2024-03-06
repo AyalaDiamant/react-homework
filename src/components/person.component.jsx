@@ -2,6 +2,8 @@
 
 import React, { useState } from 'react';
 import { Input } from './input.component';
+import { Link } from "react-router-dom";
+
 export const Person = (props) => {
     const { myperson, updatePerson, isWorker } = props;
     const [canEdit, setCanEdit] = useState(false);
@@ -28,6 +30,7 @@ export const Person = (props) => {
                     <Input initialValue={myperson.name} onSave={handleNameUpdate} />
                 )}
             </div>
+            <Link to={"" + myperson.id} >Person Details</Link>
         </div>
     );
 };
