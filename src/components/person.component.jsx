@@ -20,7 +20,6 @@ export const Person = (props) => {
     };
     // f2dfde
 
-
     return (
         <div style={style}>
             <p>person id: {myperson.id}</p>

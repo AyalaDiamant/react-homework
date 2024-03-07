@@ -36,7 +36,6 @@ function App() {
         <p><Link to="Workers">Workers</Link></p>
         <p><Link to="Customers">Customers</Link></p>
       <Outlet />
-
     </>
   )
 }
