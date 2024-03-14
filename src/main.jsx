@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import { ListPepole } from './components/listPepole.component.jsx';
 import { ShowPerson } from './components/showPerson.component.jsx';
+import { SignIn } from './components/signin.component.jsx';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,9 @@ const router = createBrowserRouter([
         Component: ShowPerson,
       }]
     }]
+  }, {
+    path: '/signin',
+    Component: SignIn,
   }
 ])
 

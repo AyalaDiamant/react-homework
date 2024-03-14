@@ -1,5 +1,3 @@
-
-
 import React, { useState } from 'react';
 import { Input } from './input.component';
 import { Link } from "react-router-dom";
@@ -18,7 +16,6 @@ export const Person = (props) => {
     const style = {
         backgroundColor: '#f2dfde',
     };
-    // f2dfde
 
     return (
         <div style={style}>
